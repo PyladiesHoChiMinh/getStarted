@@ -1,13 +1,13 @@
-### Overview
+# Overview
 
 In this tutorial, you will learn step-by-step of how to use `git` as follows:
 
 1. How to create an account for github
-- How to create a repo on github
-- How to clone a github repo
-- How to add a file and upload it to github
-- How to update new file from a master branch
-- How to create a new branch
+2. How to create a repo on github
+3. How to clone a github repo
+4. How to add a file and upload it to github
+5. How to update new file from a master branch
+6. How to create a new branch
 
 Other important stuffs:
 
