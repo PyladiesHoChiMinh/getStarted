@@ -23,7 +23,7 @@ Other important stuffs:
   - Tracking of how code is changed
   - Providing a method to allow developer manage different versions
 
-[image_01](https://github.com/PyladiesHoChiMinh/getStarted/blob/emma/guide/github_add_content/images/Centralized-Version-Control-System-Workflow-What-Is-Git-Edureka.png)
+![alt text](https://github.com/PyladiesHoChiMinh/getStarted/blob/emma/guide/github_add_content/images/Centralized-Version-Control-System-Workflow-What-Is-Git-Edureka.png)
 #### What is a monorepo?
 
 Monorepo is a "philoshophy" to manage code by one main branch a several other child branches.
