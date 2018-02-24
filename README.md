@@ -1,22 +1,27 @@
-# PyLadies-HCMC's Python tutorial
+# What is Python? It's applications?
 
-Welcome to the tutorial of PyLadies - Ho Chi Minh city chapter on Python programming.
+Python is one of the most used programming languages in A.I., data science, and backend development.
 
-This is intended as a guide to Python & its applications for people from any background & level in programming, it means:
-* We will try to introduce as many useful and/or interesting aspects of Python as possible, without getting too broad or too detailed.
-* There are sections experienced people can skip
+[Pros & cons](guides/pros_cons.md)
 
-Let's get started!
+# Installation
 
-# Why Python?
+## Windows
 
-It may be redundant to talk about this, but let's at least motivate ourselves a little before jumping in.
+It is recommended to install Anaconda instead of the official Python for Windows, because it is more stable.
 
-* Python is probably the easiest language to learn for people who is new to programming.
-* Python remains useful after you've learned how to program. It is used in real work everyday in the world.
-* Python opens up career opportunities in data science & software engineering.
+Download the Anaconda version for Python 3.x [here](https://www.anaconda.com/download/#windows).
 
-# Table of content
-* [00 - Introduction for non-programmer](guides/00_beginner.md)
+Install as you would with any other program. Official guide is [here](https://docs.anaconda.com/anaconda/install/windows).
 
-# Bugs and Report
+## Linux
+
+Ubuntu comes with both Python 3 & 2 installed, so you don't have to do anything.
+
+## Mac OS
+
+Install from the official Python package [here](https://www.python.org/downloads/mac-osx/).
+
+# How to code, compile, and debug in Python?
+
+[00 - For someone who have never programmed before](guides/00_beginner.md)
