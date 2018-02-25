@@ -25,3 +25,4 @@ Install from the official Python package [here](https://www.python.org/downloads
 # How to code, compile, and debug in Python?
 
 [00 - For someone who have never programmed before](guides/00_beginner.md)
+[practicepython.org](http://www.practicepython.org/)
