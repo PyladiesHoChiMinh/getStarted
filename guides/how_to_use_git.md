@@ -96,9 +96,9 @@ In case, you only need to add some modifications of file
 
  - For more information of how `git` command works, please refer to [cheatsheet](http://files.zeroturnaround.com/pdf/zt_git_cheat_sheet.pdf )
 
-#### Reference
+### Reference
 
  - [What is git?](https://www.edureka.co/blog/what-is-git/)
  - [Advantages of monolithic version control?](https://danluu.com/monorepo/)
  - [One vs. many — Why we moved from multiple git repos to a monorepo and how we set it up](https://hackernoon.com/one-vs-many-why-we-moved-from-multiple-git-repos-to-a-monorepo-and-how-we-set-it-up-f4abb0cfe469)
- - [Mono-repo or multi-repo? Why choose one, when you can have both?] (https://medium.com/@patrickleet/mono-repo-or-multi-repo-why-choose-one-when-you-can-have-both-e9c77bd0c668)
+ - [Mono-repo or multi-repo? Why choose one, when you can have both?](https://medium.com/@patrickleet/mono-repo-or-multi-repo-why-choose-one-when-you-can-have-both-e9c77bd0c668)
