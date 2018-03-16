@@ -35,11 +35,22 @@ Take an example, a main branch is called "master". Following that, there are man
 
 #### Why do we care about `github` and `monorepo`?
 
+Imagine a team of three people Alice, Bob, and Chris. Each of you is given a task based on an `original master branch`.
+
+Alice is working on her branch named `branch 1` and makes some modifications with two commits. Bob has five messy commits in two different child branches, say `branch 2a` and `branch 2b`. And Chris has only one, but it is updated fasten, say, `original new master branch`.
+
+What should Alice and Bob do? When completing their work, should either of them merge their branch to `original new master branch`? The answer is NO. Indeed, `git` will prevent you from merging a child branch to master by informing a confliction and requiring you to resolve before taking any further action. In this case, either Alice or Bob origin branch is an old version of `master`.
+
+For Alice, the simplest way is that she will have to create a new branch and move all of her modifications to it.
+
+For Bob, he needs to ascertain that all of his work in `branch 2a` and `branch 2b` should be merged into one branch, say, `branch 2`, then, follow what Alice's actions.
+
+So, an idea here is that by using one master branch in one repository, any change will be updated. And if there is any issue related to branch, we can apply the same procedure to resolve all conflicts.
 
 
 #### 1. How to create an account for github
 
-Please go the website to register your account & fill in your name and email.
+Please go the website <https://github.com/> to register your account & fill in your name and email.
 
 #### 2. How to create a repo on github
 
@@ -74,6 +85,12 @@ In case, you only need to add some modifications of file
 #### 6. How to create a new branch
 
 `git checkout -b NAME_OF_A_NEW_BRANCH`
+
+#### 6. How to get the latest update from `master`
+
+`git checkout master` # Switch to `master branch`
+
+`git pull --rebase`  # Get updates and keep
 
 ### Read more
 
