@@ -31,7 +31,7 @@ Other important stuffs:
 
 Monorepo is a "philoshophy" to manage code by one main branch a several other child branches.
 
-Take an example, a main branch is called "master". Following that, there are many child branches such as `branch_1`, `branch_2`. Whenever a child branch is updated, it will be needed to be updated by the main branch.
+Take an example, a main branch is called `master`. Following that, there are many child branches such as `branch_1`, `branch_2`. Whenever a child branch is updated, it will be needed to be updated by the main branch.
 
 #### Why do we care about `github` and `monorepo`?
 
@@ -39,9 +39,9 @@ Imagine a team of three people Alice, Bob, and Chris. Each of you is given a tas
 
 Alice is working on her branch named `branch 1` and makes some modifications with two commits. Bob has five messy commits in two different child branches, say `branch 2a` and `branch 2b`. And Chris has only one, but it is updated fasten, say, `original new master branch`.
 
-What should Alice and Bob do? When completing their work, should either of them merge their branch to `original new master branch`? The answer is NO. Indeed, `git` will prevent you from merging a child branch to master by informing a confliction and requiring you to resolve before taking any further action. In this case, either Alice or Bob origin branch is an old version of `master`.
+What should Alice and Bob do? When completing their work, should either of them merge their branch to `original new master branch`? The answer is NO. Indeed, `git` will prevent you from merging a child branch to master by informing a conflict and requiring you to resolve before taking any further action. In this case, either Alice or Bob origin branch is an old version of `master`.
 
-For Alice, the simplest way is that she will have to create a new branch and move all of her modifications to it.
+For Alice, the simplest way is that she will have to create a new branch and move modifications to it.
 
 For Bob, he needs to ascertain that all of his work in `branch 2a` and `branch 2b` should be merged into one branch, say, `branch 2`, then, follow what Alice's actions.
 
@@ -90,7 +90,7 @@ In case, you only need to add some modifications of file
 
 `git checkout master` # Switch to `master branch`
 
-`git pull --rebase`  # Get updates and keep
+`git pull --rebase`  # Get updates and keep current change.
 
 ### Read more
 
