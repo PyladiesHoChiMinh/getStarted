@@ -37,9 +37,9 @@ Take an example, a main branch is called `master`. Following that, there are man
 
 Imagine a team of three people Alice, Bob, and Chris. Each of you is given a task based on an `original master branch`.
 
-Alice is working on her branch named `branch 1` and makes some modifications with two commits. Bob has five messy commits in two different child branches, say `branch 2a` and `branch 2b`. And Chris has only one, but it is updated fasten, say, `original new master branch`.
+Alice is working on her branch named `branch 1` and makes some modifications with two commits. Bob has five messy commits in two different child branches, say `branch 2a` and `branch 2b`. And Chris has only one, but it has been quickly merged into `master`, then we have a new branch, say, `new master branch`.
 
-What should Alice and Bob do? When completing their work, should either of them merge their branch to `original new master branch`? The answer is NO. Indeed, `git` will prevent you from merging a child branch to master by informing a conflict and requiring you to resolve before taking any further action. In this case, either Alice or Bob origin branch is an old version of `master`.
+What should Alice and Bob do? When completing their work, should either of them merge their branch to `new master branch`? The answer is NO. Indeed, `git` will prevent you from merging a child branch to master by informing a conflict and requiring you to resolve before taking any further action. In this case, either Alice or Bob origin branch is an old version of `master`.
 
 For Alice, the simplest way is that she will have to create a new branch and move modifications to it.
 
